@@ -9,11 +9,16 @@ public class LargestElement
     {
         List<Integer> numberList = Arrays.asList(5, 7, 11, 9, 17, 80);
 
-        Integer largestNumber = numberList
+        Integer largestNumber = LargestNumberOfList(numberList);
+        System.out.println(largestNumber);
+
+    }
+
+    public static Integer LargestNumberOfList(List<Integer> numberList)
+    {
+        return numberList
                 .stream()
                 .max(Integer::compare).get();
-
-        System.out.println(largestNumber);
 
     }
 }
