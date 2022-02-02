@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5be6784-2b2d-40b8-9657-784b348e8551" name="Changes" comment="PROBLEM:&#10;*&#10;1.Write a function that returns the largest element in a list.*&#10;&#10;Extract function on stream code part.&#10;&#10;Reason: For people who don't know about stream, putting it in a function and give a descriptive name can help">
+      <change beforePath="$PROJECT_DIR$/src/LargestElementProblem/LargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LargestElementProblem/LargestElement.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24Z61J4nHXeOYTkqr6jYxh5ZhdK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RunManager" selected="Application.LargestElement (1)">
+    <configuration name="LargestElement (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LargestElementProblem.LargestElement" />
+      <module name="ProgrammingProblems-II" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LargestElementProblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LargestElement" />
+      <module name="ProgrammingProblems-II" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LargestElementProblem.LargestElement" />
+      <module name="ProgrammingProblems-II" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LargestElementProblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LargestElement (1)" />
+        <item itemvalue="Application.LargestElement" />
+        <item itemvalue="Application.LargestElement" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5be6784-2b2d-40b8-9657-784b348e8551" name="Changes" comment="" />
+      <created>1643825546773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643825546773</updated>
+    </task>
+    <task id="LOCAL-00001" summary="PROBLEM:&#10;*&#10;1.Write a function that returns the largest element in a list.*&#10;&#10;Extract function on stream code part.&#10;&#10;Reason: For people who don't know about stream, putting it in a function and give a descriptive name can help">
+      <created>1643842541227</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643842541228</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="PROBLEM:&#10;*&#10;1.Write a function that returns the largest element in a list.*" />
+    <MESSAGE value="PROBLEM:&#10;*&#10;1.Write a function that returns the largest element in a list.*&#10;&#10;Extract function on stream code part.&#10;&#10;Reason: For people who don't know about stream, putting it in a function and give a descriptive name can help" />
+    <option name="LAST_COMMIT_MESSAGE" value="PROBLEM:&#10;*&#10;1.Write a function that returns the largest element in a list.*&#10;&#10;Extract function on stream code part.&#10;&#10;Reason: For people who don't know about stream, putting it in a function and give a descriptive name can help" />
+  </component>
+</project>
