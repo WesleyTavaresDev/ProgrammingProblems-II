@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5be6784-2b2d-40b8-9657-784b348e8551" name="Changes" comment="PROBLEM:&#10;*&#10;6.Write a function that tests whether a string is a palindrome.&#10;*">
+    <list default="true" id="a5be6784-2b2d-40b8-9657-784b348e8551" name="Changes" comment="Packages naming refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ElementOccurrenceCheckerProblem/ElementOccurrenceChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/element/checker/ElementOccurrenceChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LargestElementProblem/LargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/element/largest/LargestElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListReverserProblem/ListReverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/list/reverse/ListReverser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OddPositionsProblem/OddPositions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elements/odd/OddPositions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/element/largest/LargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/element/largest/LargestElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +38,15 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.Palindrome">
+  <component name="RunManager" selected="Application.LargestElement (1)">
     <configuration name="ElementOccurrenceChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ElementOccurrenceCheckerProblem.ElementOccurrenceChecker" />
       <module name="ProgrammingProblems-II" />
@@ -58,25 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LargestElementProblem.LargestElement" />
+    <configuration name="LargestElement (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.element.largest.LargestElement" />
       <module name="ProgrammingProblems-II" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LargestElementProblem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListReverser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListReverserProblem.ListReverser" />
-      <module name="ProgrammingProblems-II" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ListReverserProblem.*" />
+          <option name="PATTERN" value="com.element.largest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestElement (1)" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.SumOfListElements" />
         <item itemvalue="Application.OddPositions" />
         <item itemvalue="Application.ElementOccurrenceChecker" />
-        <item itemvalue="Application.ListReverser" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643825546773</updated>
-      <workItem from="1644310745988" duration="384000" />
+      <workItem from="1644310745988" duration="1594000" />
     </task>
     <task id="LOCAL-00001" summary="PROBLEM:&#10;*&#10;1.Write a function that returns the largest element in a list.*&#10;&#10;Extract function on stream code part.&#10;&#10;Reason: For people who don't know about stream, putting it in a function and give a descriptive name can help">
       <created>1643842541227</created>
@@ -199,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643862369971</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Packages naming refactoring">
+      <created>1644311264635</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644311264635</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +222,7 @@
     <MESSAGE value="PROBLEM:&#10;*&#10;4.Write a function that returns the elements on odd positions in a list.*" />
     <MESSAGE value="PROBLEM:&#10;*&#10;5.Write a function that computes the running total of a list.&#10;*" />
     <MESSAGE value="PROBLEM:&#10;*&#10;6.Write a function that tests whether a string is a palindrome.&#10;*" />
-    <option name="LAST_COMMIT_MESSAGE" value="PROBLEM:&#10;*&#10;6.Write a function that tests whether a string is a palindrome.&#10;*" />
+    <MESSAGE value="Packages naming refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Packages naming refactoring" />
   </component>
 </project>
