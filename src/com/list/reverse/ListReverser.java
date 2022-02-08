@@ -2,9 +2,7 @@ package com.list.reverse;
 
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class ListReverser
 {
@@ -21,6 +19,6 @@ public class ListReverser
         return  numberList
                 .stream()
                 .sorted(Comparator.reverseOrder())
-                .collect(Collectors.toList());
+                .toList();
     }
 }
