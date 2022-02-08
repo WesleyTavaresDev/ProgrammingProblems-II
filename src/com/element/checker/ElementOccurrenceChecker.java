@@ -1,4 +1,4 @@
-package ElementOccurrenceCheckerProblem;
+package com.element.checker;
 
 import java.util.Arrays;
 import java.util.List;

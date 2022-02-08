@@ -1,4 +1,4 @@
-package OddPositionsProblem;
+package com.element.odd;
 
 import java.util.Arrays;
 import java.util.List;

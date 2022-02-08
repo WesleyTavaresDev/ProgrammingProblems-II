@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5be6784-2b2d-40b8-9657-784b348e8551" name="Changes" comment="PROBLEM:&#10;*&#10;1.Write a function that returns the largest element in a list.*&#10;&#10;Extract function on stream code part.&#10;&#10;Reason: For people who don't know about stream, putting it in a function and give a descriptive name can help">
-      <change beforePath="$PROJECT_DIR$/src/LargestElementProblem/LargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LargestElementProblem/LargestElement.java" afterDir="false" />
+    <list default="true" id="a5be6784-2b2d-40b8-9657-784b348e8551" name="Changes" comment="PROBLEM:&#10;*&#10;6.Write a function that tests whether a string is a palindrome.&#10;*">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ElementOccurrenceCheckerProblem/ElementOccurrenceChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/element/checker/ElementOccurrenceChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LargestElementProblem/LargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/element/largest/LargestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListReverserProblem/ListReverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/list/reverse/ListReverser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OddPositionsProblem/OddPositions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/elements/odd/OddPositions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +41,24 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.LargestElement (1)">
-    <configuration name="LargestElement (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Palindrome">
+    <configuration name="ElementOccurrenceChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ElementOccurrenceCheckerProblem.ElementOccurrenceChecker" />
+      <module name="ProgrammingProblems-II" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ElementOccurrenceCheckerProblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LargestElementProblem.LargestElement" />
       <module name="ProgrammingProblems-II" />
       <extension name="coverage">
@@ -53,19 +71,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LargestElement" />
+    <configuration name="ListReverser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListReverserProblem.ListReverser" />
       <module name="ProgrammingProblems-II" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ListReverserProblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LargestElementProblem.LargestElement" />
+    <configuration name="OddPositions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OddPositionsProblem.OddPositions" />
       <module name="ProgrammingProblems-II" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LargestElementProblem.*" />
+          <option name="PATTERN" value="OddPositionsProblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PalindromeProblem.Palindrome" />
+      <module name="ProgrammingProblems-II" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PalindromeProblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumOfListElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumOfListProblem.SumOfListElements" />
+      <module name="ProgrammingProblems-II" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SumOfListProblem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,9 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LargestElement (1)" />
-        <item itemvalue="Application.LargestElement" />
-        <item itemvalue="Application.LargestElement" />
+        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.SumOfListElements" />
+        <item itemvalue="Application.OddPositions" />
+        <item itemvalue="Application.ElementOccurrenceChecker" />
+        <item itemvalue="Application.ListReverser" />
       </list>
     </recent_temporary>
   </component>
@@ -89,6 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643825546773</updated>
+      <workItem from="1644310745988" duration="384000" />
     </task>
     <task id="LOCAL-00001" summary="PROBLEM:&#10;*&#10;1.Write a function that returns the largest element in a list.*&#10;&#10;Extract function on stream code part.&#10;&#10;Reason: For people who don't know about stream, putting it in a function and give a descriptive name can help">
       <created>1643842541227</created>
@@ -97,8 +150,60 @@
       <option name="project" value="LOCAL" />
       <updated>1643842541228</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="PROBLEM:&#10;*&#10;1.Write a function that returns the largest element in a list.*&#10;&#10;Inline variable (Inline Temp)&#10;&#10;Reason: There's no reason to use a variable to hold my largestNumber if I can return this value directly to print in my console">
+      <created>1643844151161</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643844151162</updated>
+    </task>
+    <task id="LOCAL-00003" summary="PROBLEM:&#10;*&#10;1.Write a function that returns the largest element in a list.*&#10;&#10;Inline variable (Inline Temp)&#10;&#10;Reason: There's no reason to use a variable to hold my largestNumber if I can return this value directly to print in my console">
+      <created>1643844161740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643844161740</updated>
+    </task>
+    <task id="LOCAL-00004" summary="PROBLEM:&#10;*&#10;2.Write function that reverses a list, preferably in place.&#10;*">
+      <created>1643847868236</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643847868236</updated>
+    </task>
+    <task id="LOCAL-00005" summary="PROBLEM:&#10;*&#10;.Write a function that checks whether an element occurs in a list.&#10;*&#10;&#10;Reason for println and don't printf use:&#10;How I only need to concatenate one integer on my text, use printf, on my eyes, is not necessary.">
+      <created>1643850169550</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643850169550</updated>
+    </task>
+    <task id="LOCAL-00006" summary="PROBLEM:&#10;*&#10;4.Write a function that returns the elements on odd positions in a list.*">
+      <created>1643854547585</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643854547585</updated>
+    </task>
+    <task id="LOCAL-00007" summary="PROBLEM:&#10;*&#10;5.Write a function that computes the running total of a list.&#10;*">
+      <created>1643859361900</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643859361900</updated>
+    </task>
+    <task id="LOCAL-00008" summary="PROBLEM:&#10;*&#10;6.Write a function that tests whether a string is a palindrome.&#10;*">
+      <created>1643862369952</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1643862369971</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -115,6 +220,12 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="PROBLEM:&#10;*&#10;1.Write a function that returns the largest element in a list.*" />
     <MESSAGE value="PROBLEM:&#10;*&#10;1.Write a function that returns the largest element in a list.*&#10;&#10;Extract function on stream code part.&#10;&#10;Reason: For people who don't know about stream, putting it in a function and give a descriptive name can help" />
-    <option name="LAST_COMMIT_MESSAGE" value="PROBLEM:&#10;*&#10;1.Write a function that returns the largest element in a list.*&#10;&#10;Extract function on stream code part.&#10;&#10;Reason: For people who don't know about stream, putting it in a function and give a descriptive name can help" />
+    <MESSAGE value="PROBLEM:&#10;*&#10;1.Write a function that returns the largest element in a list.*&#10;&#10;Inline variable (Inline Temp)&#10;&#10;Reason: There's no reason to use a variable to hold my largestNumber if I can return this value directly to print in my console" />
+    <MESSAGE value="PROBLEM:&#10;*&#10;2.Write function that reverses a list, preferably in place.&#10;*" />
+    <MESSAGE value="PROBLEM:&#10;*&#10;.Write a function that checks whether an element occurs in a list.&#10;*&#10;&#10;Reason for println and don't printf use:&#10;How I only need to concatenate one integer on my text, use printf, on my eyes, is not necessary." />
+    <MESSAGE value="PROBLEM:&#10;*&#10;4.Write a function that returns the elements on odd positions in a list.*" />
+    <MESSAGE value="PROBLEM:&#10;*&#10;5.Write a function that computes the running total of a list.&#10;*" />
+    <MESSAGE value="PROBLEM:&#10;*&#10;6.Write a function that tests whether a string is a palindrome.&#10;*" />
+    <option name="LAST_COMMIT_MESSAGE" value="PROBLEM:&#10;*&#10;6.Write a function that tests whether a string is a palindrome.&#10;*" />
   </component>
 </project>

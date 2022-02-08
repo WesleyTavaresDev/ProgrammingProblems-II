@@ -1,4 +1,4 @@
-package ListReverserProblem;
+package com.list.reverse;
 
 import java.util.Arrays;
 import java.util.Comparator;

@@ -1,4 +1,4 @@
-package SumOfListProblem;
+package com.list.sum;
 
 import java.util.Arrays;
 import java.util.List;

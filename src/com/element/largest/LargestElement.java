@@ -1,4 +1,4 @@
-package LargestElementProblem;
+package com.element.largest;
 
 import java.util.Arrays;
 import java.util.List;
