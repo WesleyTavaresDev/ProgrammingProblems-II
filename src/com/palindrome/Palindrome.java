@@ -1,12 +1,15 @@
 package com.palindrome;
 
-import java.util.Scanner;
+import java.util.*;
+import java.util.function.*;
+import java.util.stream.*;
 
 public class Palindrome
 {
     public static void main(String[] args)
     {
         System.out.println("Please, digit a word/phrase ->");
+
         Scanner scanner = new Scanner(System.in);
         String word = scanner.nextLine();
 
@@ -19,13 +22,8 @@ public class Palindrome
 
     public  static  String reverseString(String word)
     {
-        if(word.length() <= 1)
-            return word;
-
-        StringBuilder reversedString = new StringBuilder();
-        for(int i = word.length() - 1; i >= 0; i--)
-            reversedString.append(word.charAt(i));
-
-        return reversedString.toString();
+        return  Stream.of(word)
+                .map(string -> new StringBuilder(string).reverse())
+                .collect(Collectors.joining(" "));
     }
 }
