@@ -46,7 +46,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.OddPositions (1)">
+  <component name="RunManager" selected="Application.OddElements">
     <configuration name="LargestElement (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.element.largest.LargestElement" />
       <module name="ProgrammingProblems-II" />
@@ -60,8 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddPositions (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.element.odd.OddPositions" />
+    <configuration name="OddElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.element.odd.OddElements" />
       <module name="ProgrammingProblems-II" />
       <extension name="coverage">
         <pattern>
@@ -114,7 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OddPositions (1)" />
+        <item itemvalue="Application.OddElements" />
         <item itemvalue="Application.LargestElement (1)" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.SumOfListElements" />

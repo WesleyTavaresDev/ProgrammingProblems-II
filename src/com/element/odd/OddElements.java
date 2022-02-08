@@ -3,7 +3,7 @@ package com.element.odd;
 import java.util.Arrays;
 import java.util.List;
 
-public class OddPositions
+public class OddElements
 {
     public static void main(String[] args)
     {
